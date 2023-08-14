@@ -23,7 +23,7 @@ const NavBar = () => {
       <AppBar component="nav" position="static" style={theme.navbar}>
         <Container component="container" maxWidth="lg">
           <Toolbar>
-            <Typography variant="h6" sx={{ flexGrow: 1, color: "#C32446" }}>
+            <Typography variant="h6" sx={{ flexGrow: 1, color: "#162749" }}>
               <img src={logo} alt="logo" width={180} style={{ marginTop: 5 }} />
             </Typography>
             <Box
@@ -39,7 +39,7 @@ const NavBar = () => {
                   to="/"
                   key={item}
                   sx={{
-                    color: "#162749",
+                    color: "#C32446",
                     marginLeft: "5vmin",
                   }}
                 >
