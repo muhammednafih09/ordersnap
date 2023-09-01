@@ -27,8 +27,8 @@ const NavBar = () => {
             </Link>
           </li>
           <li className="nav-item">
-            <Link className="nav-link" to="/">
-              <i class="fa-solid fa-cart-shopping text-dark"></i>
+            <Link className="cart-icon nav-link mx-3" to="/">
+              <i class="fa-solid fa-cart-shopping text-dark fs-4"></i>
             </Link>
           </li>
         </ul>
