@@ -1,46 +1,46 @@
-import ipad from "./assets/img (6).png";
-import iphone from "./assets/img (5).png";
-import airpod from "./assets/img (4).png";
-import iwatch from "./assets/img (2).png";
-import MacbookAir from "./assets/img (3).png";
-import MacBookPro from "./assets/img (1).png";
+import chickenfry from "./assets/img (6).png";
+import keralameals from "./assets/img (5).png";
+import burger from "./assets/img (4).png";
+import biriyani from "./assets/img (2).png";
+import pizza from "./assets/img (3).png";
+import shawarma from "./assets/img (1).png";
 
 const PRODUCTS = [
   {
     id: 1,
-    name: "iPad",
-    price: 250,
-    Image: ipad,
+    name: "Chicken Fry",
+    price: 200,
+    Image: chickenfry,
   },
   {
     id: 2,
-    name: "iPhone 14",
-    price: 700,
-    Image: iphone,
+    name: "Meals (Kerala Style)",
+    price: 180,
+    Image: keralameals,
   },
   {
     id: 3,
-    name: "iPod",
-    price: 200,
-    Image: airpod,
+    name: "Burger",
+    price: 240,
+    Image: burger,
   },
   {
     id: 4,
-    name: "iWatch",
-    price: 500,
-    Image: iwatch,
+    name: "Biriyani",
+    price: 320,
+    Image: biriyani,
   },
   {
     id: 5,
-    name: "Mac Book Air",
-    price: 1000,
-    Image: MacbookAir,
+    name: "Pizza",
+    price: 700,
+    Image: pizza,
   },
   {
     id: 6,
-    name: "Mac Book Pro",
-    price: 2000,
-    Image: MacBookPro,
+    name: "Chicken Shawarma",
+    price: 230,
+    Image: shawarma,
   },
 ];
 

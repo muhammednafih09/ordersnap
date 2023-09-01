@@ -4,10 +4,10 @@ import { Link } from "react-router-dom";
 
 const NavBar = () => {
   return (
-    <nav className="navbar navbar-expand-md bg-light shadow-sm">
+    <nav className="navbar navbar-expand-md fixed-top bg-light shadow">
       <div className="container">
         <a href="/" className="navbar-brand">
-          <img src={logo} alt="logo" width={180} />
+          <img src={logo} alt="logo" width={170} />
         </a>
         <ul className="navbar-nav">
           <li className="nav-item">

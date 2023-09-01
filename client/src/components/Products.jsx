@@ -10,14 +10,14 @@ const Products = () => {
       <div className="row">
         {PRODUCTS.map((product) => (
           <div className="col-12 col-md-4 mb-5">
-            <div className="card shadow-sm p-3" key={product.id}>
+            <div className="card shadow-sm" key={product.id}>
               <img
                 src={product.Image}
                 alt="product"
                 className="card-image"
                 width={100}
               />
-              <div className="card-body text-center bg-light rounded">
+              <div className="card-body text-center p-4 bg-light rounded">
                 <p className="card-text">{product.name}</p>
                 <p className="cart-text">₹{product.price}</p>
                 <div className="card-btn text-center">

@@ -4,9 +4,9 @@ import Products from "../../components/Products";
 
 const Home = () => {
   return (
-    <div className="container">
-      <div className="home">
-        <Banner />
+    <div className="home">
+      <Banner />
+      <div className="container">
         <Products />
       </div>
     </div>
