@@ -9,8 +9,8 @@ const Products = () => {
 
       <div className="row">
         {PRODUCTS.map((product) => (
-          <div className="col-12 col-md-4 mb-5">
-            <div className="card shadow-sm" key={product.id}>
+          <div className="col-12 col-md-3 mb-5">
+            <div className="card shadow-sm p-2" key={product.id}>
               <img
                 src={product.Image}
                 alt="product"
@@ -25,7 +25,7 @@ const Products = () => {
                     Add To Cart
                   </a>
                   <a href="/" className="btn btn-danger mx-2">
-                    Buy Now
+                    Order Now
                   </a>
                 </div>
               </div>

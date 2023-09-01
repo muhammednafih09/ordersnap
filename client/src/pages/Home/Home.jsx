@@ -5,8 +5,8 @@ import Products from "../../components/Products";
 const Home = () => {
   return (
     <div className="home">
-      <Banner />
       <div className="container">
+        <Banner />
         <Products />
       </div>
     </div>
